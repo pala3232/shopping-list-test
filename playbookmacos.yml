@@ -1,0 +1,12 @@
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: Install Jenkins
+      homebrew:
+        name: jenkins-lts
+        state: present
+    - name: Install Docker
+      homebrew:
+        name: docker
+        state: present
+        install_options: ['--cask']
