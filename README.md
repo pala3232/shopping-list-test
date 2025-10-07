@@ -1,6 +1,6 @@
 # Flask To-Do List App
 
-A minimal Flask webapp to manage a to-do list using SQLite.
+A minimal Flask webapp to manage a shopping list using SQLite.
 
 ## System requirements
 
